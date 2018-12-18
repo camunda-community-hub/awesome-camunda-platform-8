@@ -5,6 +5,12 @@
 	font-weight: 300;
 }
 
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+}
+
 #logos {
   padding: 0;
   margin-left: auto;
