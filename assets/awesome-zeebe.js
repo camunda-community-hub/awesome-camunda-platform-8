@@ -7,10 +7,7 @@ var getFileData = function(url) {
   }).done(function(data) {
     // var converter = new showdown.Converter({literalMidWordUnderscores: true});
     // var html = converter.makeHtml(data);
-    var html = '<span id="logos"><img src="https://cdn.rawgit.com/sindresorhus/awesome/master/media/logo.png" class="awesome-logo">';
-    html += '<img src="https://zeebe.io/img/zeebe-logo.svg" class="awesome-logo"></span>';
-    html += marked(data);
-    $("#content").html(html);
+    $("#content").html(marked(data));
   })
 };
 
