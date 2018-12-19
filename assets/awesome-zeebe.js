@@ -9,22 +9,11 @@ var getFileData = function(url) {
   }).done(function(data) {
     $("#content").html(marked(data));
   })
-        .fail(function() {
-            $("#content").html(errorMsg);
-        });
+  .fail(function() {
+    $("#content").html(errorMsg);
+  });
 };
 
 $(document).ready(function(){
-  $.getJSON("https://api.github.com/repos/zeebe-io/awesome-zeebe/git/trees/HEAD")
-    .done(function(data){
-      for (var i = data.tree.length - 1; i >= 0; i--) {
-        if(data.tree[i].path == "README.md") {
-          getFileData(data.tree[i].url);
-          break;
-        }
-      };
-    })
-    .fail(function() {
-        $("#content").html(errorMsg);
-    });
+  getFileData("https://raw.githubusercontent.com/zeebe-io/awesome-zeebe/master/README.md");
 });
