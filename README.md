@@ -45,7 +45,7 @@ Contributions are welcome, if you build something awesome with Zeebe please let 
 *Exporters to load data into external systems*
 
 - [Elasticsearch](https://github.com/zeebe-io/zeebe/tree/master/exporters/elasticsearch-exporter)
-
+- [Hazelcast](https://github.com/zeebe-io/zeebe-hazelcast-exporter)
 
 ## Applications
 
