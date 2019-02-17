@@ -40,6 +40,7 @@ Contributions are welcome, if you build something awesome with Zeebe please let 
 - [DMN Scala](https://github.com/camunda/dmn-scala/tree/master/zeebe-worker) - Zeebe job worker using the [Scala DMN engine](https://github.com/camunda/dmn-scala)
 - [Camunda DMN](https://github.com/zeebe-io/zeebe-dmn-worker) - Zeebe job worker using the [Camunda DMN engine](https://github.com/camunda/camunda-engine-dmn)
 - [HTTP](https://github.com/zeebe-io/zeebe-http-worker) - Zeebe job worker for making HTTP calls
+- [User](https://github.com/zeebe-io/zeebe-simple-tasklist) - Zeebe job worker for manual/user tasks
 
 ## Exporters
 
