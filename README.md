@@ -48,6 +48,7 @@ Contributions are welcome, if you build something awesome with Zeebe please let 
 
 - [Elasticsearch](https://github.com/zeebe-io/zeebe/tree/master/exporters/elasticsearch-exporter)
 - [Hazelcast](https://github.com/zeebe-io/zeebe-hazelcast-exporter)
+- [Kafka](https://github.com/zeebe-io/zeebe-kafka-exporter)
 
 ## Applications
 
