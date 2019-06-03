@@ -47,6 +47,7 @@ Contributions are welcome, if you build something awesome with Zeebe please let 
 *Exporters to load data into external systems*
 
 - [Elasticsearch](https://github.com/zeebe-io/zeebe/tree/master/exporters/elasticsearch-exporter)
+- [Event Store](https://github.com/jwulf/zeebe-eventstore-exporter)
 - [Hazelcast](https://github.com/zeebe-io/zeebe-hazelcast-exporter)
 - [Kafka](https://github.com/zeebe-io/zeebe-kafka-exporter)
 - [CSV](https://github.com/zeebe-io/zeebe-csv-exporter)
