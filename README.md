@@ -30,6 +30,7 @@ Contributions are welcome, if you build something awesome with Zeebe please let 
 - [C#](https://github.com/zeebe-io/zeebe-client-csharp)
 - [Ruby](https://github.com/zeebe-io/zeebe-client-ruby)
 - [Node.js](https://github.com/CreditSenseAU/zeebe-client-node-js)
+- [Rust](https://github.com/xmclark/zeebest)
 
 
 ## Workers
