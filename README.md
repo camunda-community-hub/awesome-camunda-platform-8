@@ -19,6 +19,7 @@ Contributions are welcome, if you build something awesome with Zeebe please let 
     - [Exporters](#exporters)
     - [Applications](#applications)
     - [Others](#others)
+    - [Podcast](#podcast)
 
 
 ## Clients
@@ -68,6 +69,10 @@ Contributions are welcome, if you build something awesome with Zeebe please let 
 
 - [Spring integration](https://github.com/zeebe-io/spring-zeebe)
 - [Kafka Connector](https://github.com/berndruecker/kafka-connect-zeebe)
+
+## Podcast
+
+- [Zeebe Nation](https://zeebe.buzzsprout.com/)
 
 
 ## License
