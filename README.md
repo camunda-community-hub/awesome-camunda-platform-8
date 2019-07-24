@@ -31,7 +31,7 @@ Contributions are welcome, if you build something awesome with Zeebe please let 
 - [Ruby](https://github.com/zeebe-io/zeebe-client-ruby)
 - [Node.js](https://github.com/CreditSenseAU/zeebe-client-node-js)
 - [Rust](https://github.com/xmclark/zeebest)
-- [WorkIt](https://github.com/VilledeMontreal/workit) - Framework that works with both Zeebe and Camunda BPM platforms
+- [WorkIt](https://github.com/VilledeMontreal/workit) - Node.js (TypeScript) client for both Zeebe and Camunda BPM platforms
 
 
 ## Workers
