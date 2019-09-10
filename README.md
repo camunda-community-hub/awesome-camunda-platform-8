@@ -18,6 +18,7 @@ Contributions are welcome, if you build something awesome with Zeebe please let 
     - [Workers](#workers)
     - [Exporters](#exporters)
     - [Applications](#applications)
+    - [Testing](#testing)
     - [Others](#others)
 
 
@@ -63,13 +64,18 @@ Contributions are welcome, if you build something awesome with Zeebe please let 
 - [Modeler](https://github.com/zeebe-io/zeebe-modeler) - Use Zeebe Modeler to model your workflow in a desktop application
 - [zbctl](https://github.com/zeebe-io/zeebe/tree/master/clients/zbctl) - CLI to interact with Zeebe
 
+## Testing
+
+*Test utilities to help you develop Zeebe-dependent applications*
+
+- [Zeebe Test Container](https://github.com/zeebe-io/zeebe-test-container) - [TestContainers](https://testcontainers.org) module to help you write integration tests against configurable Zeebe instances.
+
 ## Others
 
 *Zeebe integrations with other systems*
 
 - [Spring integration](https://github.com/zeebe-io/spring-zeebe)
 - [Kafka Connector](https://github.com/berndruecker/kafka-connect-zeebe)
-
 
 ## License
 
