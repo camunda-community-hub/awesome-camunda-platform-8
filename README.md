@@ -76,6 +76,7 @@ Contributions are welcome, if you build something awesome with Zeebe please let 
 
 - [Spring integration](https://github.com/zeebe-io/spring-zeebe)
 - [Kafka Connector](https://github.com/berndruecker/kafka-connect-zeebe)
+- [Node-RED Zeebe nodes](https://github.com/pedesen/node-red-contrib-zeebe)
 
 ## License
 
