@@ -53,6 +53,7 @@ Contributions are welcome, if you build something awesome with Zeebe please let 
 - [Elasticsearch](https://github.com/zeebe-io/zeebe/tree/master/exporters/elasticsearch-exporter)
 - [Event Store](https://github.com/jwulf/zeebe-eventstore-exporter)
 - [Hazelcast](https://github.com/zeebe-io/zeebe-hazelcast-exporter)
+- [Incident Alerter (Webhook)](https://github.com/jwulf/zeebe-incident-alerter)
 - [Kafka](https://github.com/zeebe-io/zeebe-kafka-exporter)
 - [CSV](https://github.com/zeebe-io/zeebe-csv-exporter)
 
