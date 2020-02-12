@@ -45,6 +45,7 @@ Contributions are welcome, if you build something awesome with Zeebe please let 
 - [Camunda DMN](https://github.com/zeebe-io/zeebe-dmn-worker) - Zeebe job worker using the [Camunda DMN engine](https://github.com/camunda/camunda-engine-dmn)
 - [HTTP](https://github.com/zeebe-io/zeebe-http-worker) - Zeebe job worker for making HTTP calls
 - [User](https://github.com/zeebe-io/zeebe-simple-tasklist) - Zeebe job worker for manual/user tasks
+- [Quintessential Task List](https://github.com/StephenOTT/Quintessential-Tasklist-Zeebe) - The quintessential Zeebe tasklist for BPMN Human tasks with Drag and Drop Form builder, client and server side validations, and drop in Form Rendering
 
 ## Exporters
 
@@ -64,6 +65,10 @@ Contributions are welcome, if you build something awesome with Zeebe please let 
 - [Simple Monitor](https://github.com/zeebe-io/zeebe-simple-monitor) - A lightweight application for monitoring and interacting with Zeebe during development
 - [Modeler](https://github.com/zeebe-io/zeebe-modeler) - Use Zeebe Modeler to model your workflow in a desktop application
 - [zbctl](https://github.com/zeebe-io/zeebe/tree/master/clients/zbctl) - CLI to interact with Zeebe
+- [zbctl via npm](https://www.npmjs.com/package/zbctl) - zbctl is just an `npm install` away
+- [dockerised zbctl](https://hub.docker.com/r/sitapati/zbctl) - See [these notes on using it in CI](https://forum.zeebe.io/t/use-docker-compose-cant-find-bpmn-file/1004/3?u=jwulf)
+- [Workflow Linter](https://github.com/StephenOTT/Workflow-Linter) - Workflow Linter for BPMN workflows
+- [Zeebe Cloud Canary](https://github.com/jwulf/zeebe-cloud-canary) - Monitor the aliveness of a Zeebe broker
 
 ## Testing
 
@@ -78,6 +83,7 @@ Contributions are welcome, if you build something awesome with Zeebe please let 
 - [Spring integration](https://github.com/zeebe-io/spring-zeebe)
 - [Kafka Connector](https://github.com/berndruecker/kafka-connect-zeebe)
 - [Node-RED Zeebe nodes](https://github.com/pedesen/node-red-contrib-zeebe)
+- [Zeebe GitHub Action](https://github.com/marketplace/actions/zeebe-action) - Integrate Zeebe into GitHub Workflows with Camunda Cloud
 
 ## License
 
