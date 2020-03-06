@@ -57,6 +57,9 @@ Contributions are welcome, if you build something awesome with Zeebe please let 
 - [Incident Alerter (Webhook)](https://github.com/jwulf/zeebe-incident-alerter)
 - [Kafka](https://github.com/zeebe-io/zeebe-kafka-exporter)
 - [CSV](https://github.com/zeebe-io/zeebe-csv-exporter)
+- [NATS Streaming Server](https://github.com/MrSaints/zeebe-nats-streaming-exporter)
+
+_Want to build an exporter for another system?_ Take a look at the [Zeebe Exporter Demo](https://github.com/jwulf/zeebe-exporter-demo), and the tutorial blog posts [Part One](https://zeebe.io/blog/2019/05/exporter-part-1/) and [Part Two](https://zeebe.io/blog/2019/05/exporter-part-2/).
 
 ## Applications
 
