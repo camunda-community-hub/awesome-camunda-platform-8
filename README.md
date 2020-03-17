@@ -80,6 +80,7 @@ You can build one in as little as 15 minutes. Take a look at the [Zeebe Exporter
 *Test utilities to help you develop Zeebe-dependent applications*
 
 - [Zeebe Test Container](https://github.com/zeebe-io/zeebe-test-container) - [TestContainers](https://testcontainers.org) module to help you write integration tests against configurable Zeebe instances.
+- [Zeebe Chaos](https://github.com/zeebe-io/zeebe-chaos) - contains everything related to chaos engineering and Zeebe, like chaos experiments, an hypotheses backlog etc.
 
 ## Others
 
