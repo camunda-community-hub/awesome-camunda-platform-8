@@ -68,6 +68,7 @@ You can build one in as little as 15 minutes. Take a look at the [Zeebe Exporter
 *Applications to interact with Zeebe*
 
 - [Simple Monitor](https://github.com/zeebe-io/zeebe-simple-monitor) - A lightweight application for monitoring and interacting with Zeebe during development
+- [ZeeQS](https://github.com/zeebe-io/zeeqs) - GraphQL query API for aggregated Zeebe data
 - [Modeler](https://github.com/zeebe-io/zeebe-modeler) - Use Zeebe Modeler to model your workflow in a desktop application
 - [zbctl](https://github.com/zeebe-io/zeebe/tree/master/clients/zbctl) - CLI to interact with Zeebe
 - [zbctl via npm](https://www.npmjs.com/package/zbctl) - zbctl is just an `npm install` away
