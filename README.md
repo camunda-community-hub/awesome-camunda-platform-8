@@ -91,6 +91,7 @@ You can build one in as little as 15 minutes. Take a look at the [Zeebe Exporter
 - [Kafka Connector](https://github.com/berndruecker/kafka-connect-zeebe)
 - [Node-RED Zeebe nodes](https://github.com/pedesen/node-red-contrib-zeebe)
 - [Zeebe GitHub Action](https://github.com/marketplace/actions/zeebe-action) - Integrate Zeebe into GitHub Workflows with Camunda Cloud
+- [Portainer Templates](https://zeebe-io.github.io/zeebe-portainer-templates/) - [Portainer](https://www.portainer.io/) templates to deploy Zeebe to Docker.
 
 ## License
 
