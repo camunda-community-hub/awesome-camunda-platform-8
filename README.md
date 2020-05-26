@@ -29,6 +29,7 @@ Contributions are welcome, if you build something awesome with Zeebe please let 
 - [Java](https://github.com/zeebe-io/zeebe/tree/master/clients/java)
 - [Go](https://github.com/zeebe-io/zeebe/tree/master/clients/go)
 - [C#](https://github.com/zeebe-io/zeebe-client-csharp)
+- [Delphi](https://github.com/syconpmm/DelphiZeeBeClient)
 - [Ruby](https://github.com/zeebe-io/zeebe-client-ruby)
 - [Node.js](https://github.com/CreditSenseAU/zeebe-client-node-js)
 - [Rust](https://github.com/xmclark/zeebest)
