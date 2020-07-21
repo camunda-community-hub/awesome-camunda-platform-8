@@ -47,6 +47,7 @@ Contributions are welcome, if you build something awesome with Zeebe please let 
 - [HTTP](https://github.com/zeebe-io/zeebe-http-worker) - Zeebe job worker for making HTTP calls
 - [User](https://github.com/zeebe-io/zeebe-simple-tasklist) - Zeebe job worker for manual/user tasks
 - [Quintessential Task List](https://github.com/StephenOTT/Quintessential-Tasklist-Zeebe) - The quintessential Zeebe tasklist for BPMN Human tasks with Drag and Drop Form builder, client and server side validations, and drop in Form Rendering
+- [Beez](https://github.com/gottfrois/beez) - Simple, efficient ruby workers for Zeebe
 
 ## Exporters
 
@@ -60,7 +61,7 @@ Contributions are welcome, if you build something awesome with Zeebe please let 
 - [CSV](https://github.com/zeebe-io/zeebe-csv-exporter)
 - [NATS Streaming Server](https://github.com/MrSaints/zeebe-nats-streaming-exporter)
 
-_**Want an exporter for another system?**_ 
+_**Want an exporter for another system?**_
 
 You can build one in as little as 15 minutes. Take a look at the [Zeebe Exporter Demo](https://github.com/jwulf/zeebe-exporter-demo), and the tutorial blog posts [Part One](https://zeebe.io/blog/2019/05/exporter-part-1/) and [Part Two](https://zeebe.io/blog/2019/05/exporter-part-2/).
 
