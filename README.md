@@ -85,9 +85,8 @@ You can build one in as little as 15 minutes. Take a look at the [Zeebe Exporter
 - [Zeebe Test Container](https://github.com/zeebe-io/zeebe-test-container) - [TestContainers](https://testcontainers.org) module to help you write integration tests against configurable Zeebe instances.
 - [Zeebe Chaos](https://github.com/zeebe-io/zeebe-chaos) - contains everything related to chaos engineering and Zeebe, like chaos experiments, an hypotheses backlog etc.
 - [Zeebe BPMN RSpec](https://github.com/ezcater/zeebe_bpmn_rspec) - Ruby gem to test workflow logic in Zeebe using RSpec.
-- [zdb](https://github.com/Zelldon/zdb) - Zeebe debug and inspection tool, allows to inspect the log and internal state of Zeebe.
 
-## Others
+## Integrations
 
 *Zeebe integrations with other systems*
 
@@ -95,7 +94,13 @@ You can build one in as little as 15 minutes. Take a look at the [Zeebe Exporter
 - [Kafka Connector](https://github.com/berndruecker/kafka-connect-zeebe)
 - [Node-RED Zeebe nodes](https://github.com/pedesen/node-red-contrib-zeebe)
 - [Zeebe GitHub Action](https://github.com/marketplace/actions/zeebe-action) - Integrate Zeebe into GitHub Workflows with Camunda Cloud
+
+## Others
+
+*Other Zeebe related applications*
+
 - [Portainer Templates](https://zeebe-io.github.io/zeebe-portainer-templates/) - [Portainer](https://www.portainer.io/) templates to deploy Zeebe to Docker.
+- [zdb](https://github.com/Zelldon/zdb) - Zeebe debug and inspection tool, allows to inspect the log and internal state of Zeebe.
 
 ## License
 
