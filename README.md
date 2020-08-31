@@ -19,6 +19,7 @@ Contributions are welcome, if you build something awesome with Zeebe please let 
     - [Exporters](#exporters)
     - [Applications](#applications)
     - [Testing](#testing)
+    - [Integrations](#integrations)
     - [Others](#others)
 
 
@@ -85,6 +86,7 @@ You can build one in as little as 15 minutes. Take a look at the [Zeebe Exporter
 - [Zeebe Test Container](https://github.com/zeebe-io/zeebe-test-container) - [TestContainers](https://testcontainers.org) module to help you write integration tests against configurable Zeebe instances.
 - [Zeebe Chaos](https://github.com/zeebe-io/zeebe-chaos) - contains everything related to chaos engineering and Zeebe, like chaos experiments, an hypotheses backlog etc.
 - [Zeebe BPMN RSpec](https://github.com/ezcater/zeebe_bpmn_rspec) - Ruby gem to test workflow logic in Zeebe using RSpec.
+- [BPMN Spec](https://github.com/zeebe-io/bpmn-spec) - a tool to write tests for BPMN workflows on run them on Zeebe
 
 ## Integrations
 
