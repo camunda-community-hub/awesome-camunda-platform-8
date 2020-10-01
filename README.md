@@ -34,7 +34,9 @@ Contributions are welcome, if you build something awesome with Zeebe please let 
 - [Ruby](https://github.com/zeebe-io/zeebe-client-ruby)
 - [Node.js](https://github.com/CreditSenseAU/zeebe-client-node-js)
 - [Rust](https://github.com/xmclark/zeebest)
-- [Python](https://pypi.org/project/zeebe-grpc/)
+- Python:
+  - [Zeebe Python gRPC](https://pypi.org/project/zeebe-grpc/)
+  - [Pyzeebe](https://github.com/JonatanMartens/pyzeebe)
 - [WorkIt](https://github.com/VilledeMontreal/workit) - Node.js (TypeScript) client for both Zeebe and Camunda BPM platforms
 - [Zeebe Action](https://github.com/marketplace/actions/zeebe-action) - GitHub Action client for Zeebe on Camunda Cloud
 
