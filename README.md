@@ -72,7 +72,7 @@ You can build one in as little as 15 minutes. Take a look at the [Zeebe Exporter
 
 *Applications to interact with Zeebe*
 
-- [Simple Monitor](https://github.com/zeebe-io/zeebe-simple-monitor) - A lightweight application for monitoring and interacting with Zeebe during development
+- [Simple Monitor](https://github.com/zeebe-io/zeebe-simple-monitor) - A lightweight application for monitoring and interacting with Zeebe during the development
 - [ZeeQS](https://github.com/zeebe-io/zeeqs) - GraphQL query API for aggregated Zeebe data
 - [Modeler](https://github.com/zeebe-io/zeebe-modeler) - Use Zeebe Modeler to model your workflow in a desktop application
 - [zbctl](https://github.com/zeebe-io/zeebe/tree/master/clients/zbctl) - CLI to interact with Zeebe
@@ -86,9 +86,9 @@ You can build one in as little as 15 minutes. Take a look at the [Zeebe Exporter
 *Test utilities to help you develop Zeebe-dependent applications*
 
 - [Zeebe Test Container](https://github.com/zeebe-io/zeebe-test-container) - [TestContainers](https://testcontainers.org) module to help you write integration tests against configurable Zeebe instances.
-- [Zeebe Chaos](https://github.com/zeebe-io/zeebe-chaos) - contains everything related to chaos engineering and Zeebe, like chaos experiments, an hypotheses backlog etc.
+- [Zeebe Chaos](https://github.com/zeebe-io/zeebe-chaos) - contains everything related to chaos engineering and Zeebe, like chaos experiments, a hypotheses backlog etc.
 - [Zeebe BPMN RSpec](https://github.com/ezcater/zeebe_bpmn_rspec) - Ruby gem to test workflow logic in Zeebe using RSpec.
-- [BPMN Spec](https://github.com/zeebe-io/bpmn-spec) - a tool to write tests for BPMN workflows on run them on Zeebe
+- [BPMN Spec](https://github.com/zeebe-io/bpmn-spec) - a tool to write tests for BPMN workflows on running them on Zeebe
 
 ## Integrations
 
