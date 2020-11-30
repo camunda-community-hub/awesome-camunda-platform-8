@@ -33,6 +33,7 @@ Contributions are welcome, if you build something awesome with Zeebe please let 
 - [Delphi](https://github.com/syconpmm/DelphiZeeBeClient)
 - [Ruby](https://github.com/zeebe-io/zeebe-client-ruby)
 - [Node.js](https://github.com/CreditSenseAU/zeebe-client-node-js)
+- [NestJS](https://www.npmjs.com/package/nestjs-zeebe)
 - [Rust](https://github.com/xmclark/zeebest)
 - Python:
   - [Zeebe Python gRPC](https://pypi.org/project/zeebe-grpc/)
