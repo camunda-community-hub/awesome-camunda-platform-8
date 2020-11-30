@@ -90,6 +90,7 @@ You can build one in as little as 15 minutes. Take a look at the [Zeebe Exporter
 - [Zeebe Chaos](https://github.com/zeebe-io/zeebe-chaos) - contains everything related to chaos engineering and Zeebe, like chaos experiments, an hypotheses backlog etc.
 - [Zeebe BPMN RSpec](https://github.com/ezcater/zeebe_bpmn_rspec) - Ruby gem to test workflow logic in Zeebe using RSpec.
 - [BPMN Spec](https://github.com/zeebe-io/bpmn-spec) - a tool to write tests for BPMN workflows on run them on Zeebe
+- [Zeebe Performance Benchmarking / Tuning Tool](https://zeebe.io/blog/2020/11/zeebe-performance-tool/) - a performance benchmarking and tuning spreadsheet from Camunda Consultant Falko Menge.
 
 ## Integrations
 
