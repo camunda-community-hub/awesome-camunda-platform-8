@@ -64,6 +64,7 @@ Contributions are welcome, if you build something awesome with Zeebe please let 
 - [Kafka](https://github.com/zeebe-io/zeebe-kafka-exporter)
 - [CSV](https://github.com/zeebe-io/zeebe-csv-exporter)
 - [NATS Streaming Server](https://github.com/MrSaints/zeebe-nats-streaming-exporter)
+- [MongoDB](https://github.com/crossid/zeebe-mongo-exporter)
 
 _**Want an exporter for another system?**_
 
