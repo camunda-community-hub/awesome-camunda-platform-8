@@ -52,6 +52,7 @@ Contributions are welcome, if you build something awesome with Zeebe please let 
 - [User](https://github.com/zeebe-io/zeebe-simple-tasklist) - Zeebe job worker for manual/user tasks
 - [Quintessential Task List](https://github.com/StephenOTT/Quintessential-Tasklist-Zeebe) - The quintessential Zeebe tasklist for BPMN Human tasks with Drag and Drop Form builder, client and server side validations, and drop in Form Rendering
 - [Beez](https://github.com/gottfrois/beez) - Simple, efficient ruby workers for Zeebe
+- [Video-Service](https://github.com/ko1N/zeebe-video-service) - Multimedia file processing with integration of various storage backends (minio, smb).
 
 ## Exporters
 
