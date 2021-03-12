@@ -106,7 +106,7 @@ You can build one in as little as 15 minutes. Take a look at the [Zeebe Exporter
 
 *Other Zeebe related applications*
 
-- [Portainer Templates](https://zeebe-io.github.io/zeebe-portainer-templates/) - [Portainer](https://www.portainer.io/) templates to deploy Zeebe to Docker.
+- [Portainer Templates](https://camunda-community-hub.github.io/zeebe-portainer-templates/) - [Portainer](https://www.portainer.io/) templates to deploy Zeebe to Docker.
 - [zdb](https://github.com/Zelldon/zdb) - Zeebe debug and inspection tool, allows to inspect the log and internal state of Zeebe.
 
 ## License
