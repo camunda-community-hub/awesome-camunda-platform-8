@@ -4,13 +4,13 @@
 
 A curated list of awesome [Zeebe](https://zeebe.io) projects, mostly driven by the community. Inspired by [awesome-go](https://github.com/avelino/awesome-go).
 
-### Contributing
+## Contributing
 
 Contributions are welcome, if you build something awesome with Zeebe please let us know. Take a quick gander at the [contribution guidelines](https://github.com/zeebe-io/awesome-zeebe/blob/master/CONTRIBUTING.md) first.
 
 *If you see a package or project here that is no longer maintained or is not a good fit, please submit a pull request to improve this file. Thank you!*
 
-### Contents
+## Contents
 
 * [Clients And Programing Framework Integrations](#clients-and-programing-framework-integrations)
 * [Connectors and Bridges](#connectors-and-bridges)
@@ -19,6 +19,8 @@ Contributions are welcome, if you build something awesome with Zeebe please let 
 * [Applications](#applications)
 * [Testing](#testing)
 * [Others](#others)
+
+# Awesome Projects
 
 ## Clients And Programing Framework Integrations
 
