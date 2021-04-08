@@ -2,7 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Contribute](https://img.shields.io/badge/contribute-project-blue.svg)](https://github.com/zeebe-io/awesome-zeebe/pulls)
 
-A curated list of awesome [Zeebe](https://zeebe.io) clients, workers and applications. Inspired by [awesome-go](https://github.com/avelino/awesome-go).
+A curated list of awesome [Zeebe](https://zeebe.io) projects, mostly driven by the community. Inspired by [awesome-go](https://github.com/avelino/awesome-go).
 
 ### Contributing
 
@@ -10,48 +10,57 @@ Contributions are welcome, if you build something awesome with Zeebe please let 
 
 *If you see a package or project here that is no longer maintained or is not a good fit, please submit a pull request to improve this file. Thank you!*
 
-
 ### Contents
 
-- [Awesome Zeebe](#awesome-zeebe)
-    - [Clients](#clients)
-    - [Workers](#workers)
-    - [Exporters](#exporters)
-    - [Applications](#applications)
-    - [Testing](#testing)
-    - [Integrations](#integrations)
-    - [Others](#others)
+* [Clients And Programing Framework Integrations](#clients-and-programing-framework-integrations)
+* [Connectors and Bridges](#connectors-and-bridges)
+* [Job Workers](#job-workers)
+* [Exporters](#exporters)
+* [Applications](#applications)
+* [Testing](#testing)
+* [Others](#others)
 
+## Clients And Programing Framework Integrations
 
-## Clients
-
-*Libraries to interact with Zeebe*
+*Client libraries to interact with Zeebe*
 
 - [Java](https://github.com/zeebe-io/zeebe/tree/master/clients/java)
+  - [Spring](https://github.com/zeebe-io/spring-zeebe)
 - [Go](https://github.com/zeebe-io/zeebe/tree/master/clients/go)
 - [C#](https://github.com/zeebe-io/zeebe-client-csharp)
 - [Delphi](https://github.com/syconpmm/DelphiZeeBeClient)
 - [Ruby](https://github.com/zeebe-io/zeebe-client-ruby)
-- [Node.js](https://github.com/CreditSenseAU/zeebe-client-node-js)
-- [NestJS](https://www.npmjs.com/package/nestjs-zeebe)
+  - [Beez](https://github.com/gottfrois/beez) - Simple, efficient ruby workers for Zeebe
+- [Node.js](https://github.com/camunda-community-hub/zeebe-client-node-js)
+  - [NestJS](https://www.npmjs.com/package/nestjs-zeebe)
 - [Rust](https://github.com/xmclark/zeebest)
 - Python:
   - [Zeebe Python gRPC](https://pypi.org/project/zeebe-grpc/)
   - [Pyzeebe](https://github.com/JonatanMartens/pyzeebe)
 - [WorkIt](https://github.com/VilledeMontreal/workit) - Node.js (TypeScript) client for both Zeebe and Camunda BPM platforms
-- [Zeebe Action](https://github.com/marketplace/actions/zeebe-action) - GitHub Action client for Zeebe on Camunda Cloud
 
-## Workers
+_**Want an exporter for another language?**_
 
-*Generic Zeebe job workers to complete tasks*
+Thanks to gRPC you can generate client stubs easily as described in [Generating a Zeebe-Python Client Stub in Less Than An Hour: A gRPC + Zeebe Tutorial](https://camunda.com/blog/2018/11/grpc-generating-a-zeebe-python-client/).
+
+
+## Connectors and Bridges
+
+*Connector: A piece of software that connects Zeebe with some other system or infrastructure. Might be uni or bidirectional and possibly includes a job worker.*
+
+- [Kafka Connector](https://github.com/berndruecker/kafka-connect-zeebe)
+- [HTTP](https://github.com/zeebe-io/zeebe-http-worker) - Zeebe job worker for making HTTP calls
+- [Lambda](https://github.com/camunda-community-hub/zeebe-lambda-worker) - A Zeebe worker to invoke AWS Lambdas (Serverless functions), allowing to orchestrate functions
+- [Node-RED Zeebe nodes](https://github.com/pedesen/node-red-contrib-zeebe)
+- [Zeebe GitHub Action](https://github.com/marketplace/actions/zeebe-action) - Integrate Zeebe into GitHub Workflows with Camunda Cloud
+
+## Job Workers
+
+*Job Worker: A special type of client that polls for and executes available jobs. In contrast to connectors and bridges, such workers do not connect to other active pieces of software primarily (for example, a 'DMN Connector' might connect Zeebe to a managed DMN Engine, a 'DMN worker' will use a DMN library to execute decisions).*
 
 - [Script](https://github.com/zeebe-io/zeebe-script-worker) - Zeebe job worker for evaluating JS, Groovy, and FEEL scripts
 - [DMN Scala](https://github.com/camunda/dmn-scala/tree/master/zeebe-worker) - Zeebe job worker using the [Scala DMN engine](https://github.com/camunda/dmn-scala)
 - [Camunda DMN](https://github.com/zeebe-io/zeebe-dmn-worker) - Zeebe job worker using the [Camunda DMN engine](https://github.com/camunda/camunda-engine-dmn)
-- [HTTP](https://github.com/zeebe-io/zeebe-http-worker) - Zeebe job worker for making HTTP calls
-- [User](https://github.com/zeebe-io/zeebe-simple-tasklist) - Zeebe job worker for manual/user tasks
-- [Quintessential Task List](https://github.com/StephenOTT/Quintessential-Tasklist-Zeebe) - The quintessential Zeebe tasklist for BPMN Human tasks with Drag and Drop Form builder, client and server side validations, and drop in Form Rendering
-- [Beez](https://github.com/gottfrois/beez) - Simple, efficient ruby workers for Zeebe
 
 ## Exporters
 
@@ -82,6 +91,8 @@ You can build one in as little as 15 minutes. Take a look at the [Zeebe Exporter
 - [dockerised zbctl](https://hub.docker.com/r/sitapati/zbctl) - See [these notes on using it in CI](https://forum.zeebe.io/t/use-docker-compose-cant-find-bpmn-file/1004/3?u=jwulf)
 - [Workflow Linter](https://github.com/StephenOTT/Workflow-Linter) - Workflow Linter for BPMN workflows
 - [Zeebe Cloud Canary](https://github.com/jwulf/zeebe-cloud-canary) - Monitor the aliveness of a Zeebe broker
+- [Zeebe Simple Tasklist](https://github.com/zeebe-io/zeebe-simple-tasklist) - Zeebe job worker for manual/user tasks
+- [Quintessential Task List](https://github.com/StephenOTT/Quintessential-Tasklist-Zeebe) - The quintessential Zeebe tasklist for BPMN Human tasks with Drag and Drop Form builder, client and server side validations, and drop in Form Rendering
 
 ## Testing
 
@@ -92,15 +103,6 @@ You can build one in as little as 15 minutes. Take a look at the [Zeebe Exporter
 - [Zeebe BPMN RSpec](https://github.com/ezcater/zeebe_bpmn_rspec) - Ruby gem to test workflow logic in Zeebe using RSpec.
 - [BPMN Spec](https://github.com/zeebe-io/bpmn-spec) - a tool to write tests for BPMN workflows on run them on Zeebe
 - [Zeebe Performance Benchmarking / Tuning Tool](https://zeebe.io/blog/2020/11/zeebe-performance-tool/) - a performance benchmarking and tuning spreadsheet from Camunda Consultant Falko Menge.
-
-## Integrations
-
-*Zeebe integrations with other systems*
-
-- [Spring integration](https://github.com/zeebe-io/spring-zeebe)
-- [Kafka Connector](https://github.com/berndruecker/kafka-connect-zeebe)
-- [Node-RED Zeebe nodes](https://github.com/pedesen/node-red-contrib-zeebe)
-- [Zeebe GitHub Action](https://github.com/marketplace/actions/zeebe-action) - Integrate Zeebe into GitHub Workflows with Camunda Cloud
 
 ## Others
 
