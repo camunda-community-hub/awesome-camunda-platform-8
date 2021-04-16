@@ -110,7 +110,7 @@ You can build one in as little as 15 minutes. Take a look at the [Zeebe Exporter
 
 *Other Zeebe related applications*
 
-- [Helm Charts](https://helm.zeebe.io/) - [Helm](https://helm.sh/) charts to deploy Zeebe to Kubernetes.
+- [Helm Charts](https://helm.camunda.io/) - [Helm](https://helm.sh/) charts to deploy Zeebe to Kubernetes.
 - [Portainer Templates](https://camunda-community-hub.github.io/zeebe-portainer-templates/) - [Portainer](https://www.portainer.io/) templates to deploy Zeebe to Docker.
 - [zdb](https://github.com/Zelldon/zdb) - Zeebe debug and inspection tool, allows to inspect the log and internal state of Zeebe.
 
