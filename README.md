@@ -105,6 +105,7 @@ You can build one in as little as 15 minutes. Take a look at the [Zeebe Exporter
 - [Zeebe BPMN RSpec](https://github.com/ezcater/zeebe_bpmn_rspec) - Ruby gem to test workflow logic in Zeebe using RSpec.
 - [BPMN Spec](https://github.com/camunda-community-hub/bpmn-spec) - a tool to write tests for BPMN workflows on run them on Zeebe
 - [Zeebe Performance Benchmarking / Tuning Tool](https://zeebe.io/blog/2020/11/zeebe-performance-tool/) - a performance benchmarking and tuning spreadsheet from Camunda Consultant Falko Menge.
+- [Zeebe Worker Java Testutils](https://github.com/camunda-community-hub/zeebe-worker-java-testutils) - Utilities to test Zeebe workers implemented in Java
 
 ## Others
 
