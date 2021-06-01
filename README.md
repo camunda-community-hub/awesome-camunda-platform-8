@@ -95,6 +95,7 @@ You can build one in as little as 15 minutes. Take a look at the [Zeebe Exporter
 - [Zeebe Cloud Canary](https://github.com/jwulf/zeebe-cloud-canary) - Monitor the aliveness of a Zeebe broker
 - [Zeebe Simple Tasklist](https://github.com/camunda-community-hub/zeebe-simple-tasklist) - Zeebe job worker for manual/user tasks
 - [Quintessential Task List](https://github.com/StephenOTT/Quintessential-Tasklist-Zeebe) - The quintessential Zeebe tasklist for BPMN Human tasks with Drag and Drop Form builder, client and server side validations, and drop in Form Rendering
+- [Python-Zeebe Sandbox](https://github.com/nimanamjouyan/python-zeebe) - A FastAPI python sandbox for Zeebe to deploy workflows, run instances and publish messages. This dockerised app runs Zeebe Simple Monitor, a single node Zeebe broker and a FastAPI python container to allow exploration/investigation of Zeebe features and workflows.
 
 ## Testing
 
