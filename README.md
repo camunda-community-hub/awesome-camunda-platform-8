@@ -63,6 +63,7 @@ Thanks to gRPC you can generate client stubs easily as described in [Generating 
 - [Script](https://github.com/camunda-community-hub/zeebe-script-worker) - Zeebe job worker for evaluating JS, Groovy, and FEEL scripts
 - [DMN Scala](https://github.com/camunda-community-hub/dmn-scala/tree/master/zeebe-worker) - Zeebe job worker using the [Scala DMN engine](https://github.com/camunda/dmn-scala)
 - [Camunda DMN](https://github.com/camunda-community-hub/zeebe-dmn-worker) - Zeebe job worker using the [Camunda DMN engine](https://github.com/camunda/camunda-engine-dmn)
+- [Zeebe Slack Worker](https://github.com/camunda-community-hub/zeebe-slack-worker) - A Node.js library for building job workers that send messages to Slack based on service tasks.
 
 ## Exporters
 
