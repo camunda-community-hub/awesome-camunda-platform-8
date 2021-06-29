@@ -41,7 +41,7 @@ Contributions are welcome, if you build something awesome with Zeebe please let 
   - [Pyzeebe](https://github.com/camunda-community-hub/pyzeebe)
 - [WorkIt](https://github.com/VilledeMontreal/workit) - Node.js (TypeScript) client for both Zeebe and Camunda BPM platforms
 
-_**Want an exporter for another language?**_
+_**Want a client for another language?**_
 
 Thanks to gRPC you can generate client stubs easily as described in [Generating a Zeebe-Python Client Stub in Less Than An Hour: A gRPC + Zeebe Tutorial](https://camunda.com/blog/2018/11/grpc-generating-a-zeebe-python-client/).
 
