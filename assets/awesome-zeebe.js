@@ -1,4 +1,4 @@
-var errorMsg = '<h2 style="text-align: center">Failed to fetch the awesome-zeebe list. Please visit <a href="https://github.com/zeebe-io/awesome-zeebe">https://github.com/zeebe-io/awesome-zeebe</a></h2>';
+var errorMsg = '<h2 style="text-align: center">Failed to fetch the awesome-zeebe list. Please visit <a href="https://github.com/camunda-community-hub/awesome-zeebe">https://github.com/camunda-community-hub/awesome-zeebe</a></h2>';
 
 var getFileData = function(url) {
   $.ajax({
@@ -15,5 +15,5 @@ var getFileData = function(url) {
 };
 
 $(document).ready(function(){
-  getFileData("https://raw.githubusercontent.com/zeebe-io/awesome-zeebe/master/README.md");
+  getFileData("https://raw.githubusercontent.com/camunda-community-hub/awesome-zeebe/master/README.md");
 });
