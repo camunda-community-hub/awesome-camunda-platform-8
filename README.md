@@ -1,12 +1,12 @@
-# Awesome Zeebe
+# Awesome Camunda Cloud
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Contribute](https://img.shields.io/badge/contribute-project-blue.svg)](https://github.com/zeebe-io/awesome-zeebe/pulls)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Contribute](https://img.shields.io/badge/contribute-project-blue.svg)](https://github.com/camunda-community-hub/awesome-camunda-cloud/pulls)
 
-A curated list of awesome [Zeebe](https://zeebe.io) projects, mostly driven by the community. Inspired by [awesome-go](https://github.com/avelino/awesome-go).
+A curated list of awesome [Camunda Cloud](https://camunda.io) projects, mostly driven by the community. Inspired by [awesome-go](https://github.com/avelino/awesome-go).
 
 ## Contributing
 
-Contributions are welcome, if you build something awesome with Zeebe please let us know. Take a quick gander at the [contribution guidelines](https://github.com/zeebe-io/awesome-zeebe/blob/master/CONTRIBUTING.md) first. If you would like, you can also join the [Camunda Community Hub](https://github.com/Camunda-Community-Hub/community/), which is a centralized home for all Camunda Community contributed extensions!
+Contributions are welcome, if you build something awesome with Camunda Cloud please let us know. Take a quick gander at the [contribution guidelines](CONTRIBUTING.md) first. If you would like, you can also join the [Camunda Community Hub](https://github.com/Camunda-Community-Hub/community/), which is a centralized home for all Camunda Community contributed extensions!
 
 *If you see a package or project here that is no longer maintained or is not a good fit, please submit a pull request to improve this file. Thank you!*
 
@@ -24,7 +24,7 @@ Contributions are welcome, if you build something awesome with Zeebe please let 
 
 ## Clients And Programing Framework Integrations
 
-*Client libraries to interact with Zeebe*
+*Client libraries to interact with Camunda Cloud*
 
 - [Java](https://github.com/zeebe-io/zeebe/tree/master/clients/java)
   - [Spring](https://github.com/zeebe-io/spring-zeebe)
