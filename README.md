@@ -1,16 +1,18 @@
-# Awesome Camunda Cloud
+<div align="center">
+<h1>Awesome Camunda Cloud</h1>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Contribute](https://img.shields.io/badge/contribute-project-blue.svg)](https://github.com/camunda-community-hub/awesome-camunda-cloud/pulls)
+  
+<hr />
+<a href="https://camunda.io">Camunda Cloud</a>&nbsp;&nbsp;&nbsp;
+<a href="CODE_OF_CONDUCT.md">Code of conduct</a>&nbsp;&nbsp;&nbsp;
+<a href="CONTRIBUTING.md">Contributing</a>
+<hr />
+</div>
 
 A curated list of awesome [Camunda Cloud](https://camunda.io) projects, mostly driven by the community. Inspired by [awesome-go](https://github.com/avelino/awesome-go).
 
 Previously this list contained only Zeebe awesome-ness. Help us collect all things awesome about Camunda Cloud and Zeebe, the workflow engine powering Camunda Cloud.
-
-## Contributing
-
-Contributions are welcome, if you build something awesome with Camunda Cloud please let us know. Take a quick gander at the [contribution guidelines](CONTRIBUTING.md) first. If you would like, you can also join the [Camunda Community Hub](https://github.com/Camunda-Community-Hub/community/), which is a centralized home for all Camunda Community contributed extensions!
-
-If you see a package or project here that is no longer maintained or is not a good fit, please submit a pull request to improve this file. Thank you!
 
 ## Contents
 
@@ -20,6 +22,7 @@ If you see a package or project here that is no longer maintained or is not a go
 * [Exporters](#exporters)
 * [Applications](#applications)
 * [Testing](#testing)
+* [Meetups](#meetups)
 * [Others](#others)
 
 # Awesome Projects
@@ -118,6 +121,10 @@ Other Camunda Cloud & Zeebe related applications
 - [Helm Charts](https://helm.camunda.io/) - [Helm](https://helm.sh/) charts to deploy Zeebe to Kubernetes.
 - [Portainer Templates](https://camunda-community-hub.github.io/zeebe-portainer-templates/) - [Portainer](https://www.portainer.io/) templates to deploy Zeebe to Docker.
 - [zdb](https://github.com/Zelldon/zdb) - Zeebe debug and inspection tool, allows to inspect the log and internal state of Zeebe.
+
+## Meetups
+
+- [2020-01-15 - Zeebe: A workflow engine for microservice orchestration in the cloud](https://github.com/urbanisierung/meetups/blob/master/2020-01-15-Camunda-Zeebe/README.md)
 
 ## License
 
