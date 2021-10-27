@@ -14,7 +14,7 @@ If you see a package or project here that is no longer maintained or is not a go
 
 ## Contents
 
-* [Clients And Programing Framework Integrations](#clients-and-programing-framework-integrations)
+* [Clients and Programming Framework Integrations](#clients-and-programming-framework-integrations)
 * [Connectors and Bridges](#connectors-and-bridges)
 * [Job Workers](#job-workers)
 * [Exporters](#exporters)
@@ -24,7 +24,7 @@ If you see a package or project here that is no longer maintained or is not a go
 
 # Awesome Projects
 
-## Clients And Programing Framework Integrations
+## Clients and Programming Framework Integrations
 
 Client libraries to interact with Camunda Cloud and Zeebe
 
