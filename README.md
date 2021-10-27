@@ -4,11 +4,13 @@
 
 A curated list of awesome [Camunda Cloud](https://camunda.io) projects, mostly driven by the community. Inspired by [awesome-go](https://github.com/avelino/awesome-go).
 
+Previously this list contained only Zeebe awesome-ness. Help us collect all things awesome about Camunda Cloud and Zeebe, the workflow engine powering Camunda Cloud.
+
 ## Contributing
 
 Contributions are welcome, if you build something awesome with Camunda Cloud please let us know. Take a quick gander at the [contribution guidelines](CONTRIBUTING.md) first. If you would like, you can also join the [Camunda Community Hub](https://github.com/Camunda-Community-Hub/community/), which is a centralized home for all Camunda Community contributed extensions!
 
-*If you see a package or project here that is no longer maintained or is not a good fit, please submit a pull request to improve this file. Thank you!*
+If you see a package or project here that is no longer maintained or is not a good fit, please submit a pull request to improve this file. Thank you!
 
 ## Contents
 
@@ -24,11 +26,11 @@ Contributions are welcome, if you build something awesome with Camunda Cloud ple
 
 ## Clients And Programing Framework Integrations
 
-*Client libraries to interact with Camunda Cloud*
+Client libraries to interact with Camunda Cloud and Zeebe
 
-- [Java](https://github.com/zeebe-io/zeebe/tree/master/clients/java)
-  - [Spring](https://github.com/zeebe-io/spring-zeebe)
-- [Go](https://github.com/zeebe-io/zeebe/tree/master/clients/go)
+- [Java](https://github.com/camunda-cloud/zeebe/tree/master/clients/java)
+  - [Spring](https://github.com/camunda-community-hub/spring-zeebe)
+- [Go](https://github.com/camunda-cloud/zeebe/tree/master/clients/go)
 - [C#](https://github.com/camunda-community-hub/zeebe-client-csharp)
 - [Delphi](https://github.com/camunda-community-hub/DelphiZeeBeClient)
 - [Ruby](https://github.com/zeebe-io/zeebe-client-ruby)
@@ -41,14 +43,14 @@ Contributions are welcome, if you build something awesome with Camunda Cloud ple
   - [Pyzeebe](https://github.com/camunda-community-hub/pyzeebe)
 - [WorkIt](https://github.com/VilledeMontreal/workit) - Node.js (TypeScript) client for both Zeebe and Camunda BPM platforms
 
-_**Want a client for another language?**_
+**Want a client for another language?**
 
 Thanks to gRPC you can generate client stubs easily as described in [Generating a Zeebe-Python Client Stub in Less Than An Hour: A gRPC + Zeebe Tutorial](https://camunda.com/blog/2018/11/grpc-generating-a-zeebe-python-client/).
 
 
 ## Connectors and Bridges
 
-*Connector: A piece of software that connects Zeebe with some other system or infrastructure. Might be uni or bidirectional and possibly includes a job worker.*
+Connector: A piece of software that connects Camunda Cloud or Zeebe with some other system or infrastructure. Might be uni or bidirectional and possibly includes a job worker.
 
 - [Kafka Connector](https://github.com/camunda-community-hub/kafka-connect-zeebe)
 - [HTTP](https://github.com/camunda-community-hub/zeebe-http-worker) - Zeebe job worker for making HTTP calls
@@ -58,7 +60,7 @@ Thanks to gRPC you can generate client stubs easily as described in [Generating 
 
 ## Job Workers
 
-*Job Worker: A special type of client that polls for and executes available jobs. In contrast to connectors and bridges, such workers do not connect to other active pieces of software primarily (for example, a 'DMN Connector' might connect Zeebe to a managed DMN Engine, a 'DMN worker' will use a DMN library to execute decisions).*
+Job Worker: A special type of client that polls for and executes available jobs. In contrast to connectors and bridges, such workers do not connect to other active pieces of software primarily (for example, a 'DMN Connector' might connect Zeebe to a managed DMN Engine, a 'DMN worker' will use a DMN library to execute decisions).
 
 - [Script](https://github.com/camunda-community-hub/zeebe-script-worker) - Zeebe job worker for evaluating JS, Groovy, and FEEL scripts
 - [DMN Scala](https://github.com/camunda-community-hub/dmn-scala/tree/master/zeebe-worker) - Zeebe job worker using the [Scala DMN engine](https://github.com/camunda/dmn-scala)
@@ -67,7 +69,7 @@ Thanks to gRPC you can generate client stubs easily as described in [Generating 
 
 ## Exporters
 
-*Exporters to load data into external systems*
+Exporters to load data into external systems, only available with Camunda Cloud Self-Managed.
 
 - [Elasticsearch](https://github.com/zeebe-io/zeebe/tree/master/exporters/elasticsearch-exporter)
 - [Event Store](https://github.com/jwulf/zeebe-eventstore-exporter)
@@ -78,13 +80,13 @@ Thanks to gRPC you can generate client stubs easily as described in [Generating 
 - [NATS Streaming Server](https://github.com/MrSaints/zeebe-nats-streaming-exporter)
 - [MongoDB](https://github.com/crossid/zeebe-mongo-exporter)
 
-_**Want an exporter for another system?**_
+**Want an exporter for another system?**
 
 You can build one in as little as 15 minutes. Take a look at the [Zeebe Exporter Demo](https://github.com/jwulf/zeebe-exporter-demo), and the tutorial blog posts [Part One](https://zeebe.io/blog/2019/05/exporter-part-1/) and [Part Two](https://zeebe.io/blog/2019/05/exporter-part-2/).
 
 ## Applications
 
-*Applications to interact with Zeebe*
+Applications to interact with Camunda Cloud and Zeebe
 
 - [Simple Monitor](https://github.com/camunda-community-hub/zeebe-simple-monitor) - A lightweight application for monitoring and interacting with Zeebe during development
 - [ZeeQS](https://github.com/camunda-community-hub/zeeqs) - GraphQL query API for aggregated Zeebe data
@@ -100,7 +102,7 @@ You can build one in as little as 15 minutes. Take a look at the [Zeebe Exporter
 
 ## Testing
 
-*Test utilities to help you develop Zeebe-dependent applications*
+Test utilities to help you develop Camunda Cloud or Zeebe-dependent applications
 
 - [Zeebe Test Container](https://github.com/camunda-community-hub/zeebe-test-container) - [TestContainers](https://testcontainers.org) module to help you write integration tests against configurable Zeebe instances.
 - [Zeebe Chaos](https://github.com/zeebe-io/zeebe-chaos) - contains everything related to chaos engineering and Zeebe, like chaos experiments, an hypotheses backlog etc.
@@ -111,7 +113,7 @@ You can build one in as little as 15 minutes. Take a look at the [Zeebe Exporter
 
 ## Others
 
-*Other Zeebe related applications*
+Other Camunda Cloud & Zeebe related applications
 
 - [Helm Charts](https://helm.camunda.io/) - [Helm](https://helm.sh/) charts to deploy Zeebe to Kubernetes.
 - [Portainer Templates](https://camunda-community-hub.github.io/zeebe-portainer-templates/) - [Portainer](https://www.portainer.io/) templates to deploy Zeebe to Docker.
