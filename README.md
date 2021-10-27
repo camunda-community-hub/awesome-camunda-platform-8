@@ -1,7 +1,7 @@
 <div align="center">
 <h1>Awesome Camunda Cloud</h1>
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Contribute](https://img.shields.io/badge/contribute-project-blue.svg)](https://github.com/camunda-community-hub/awesome-camunda-cloud/pulls)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Contribute](https://img.shields.io/badge/contribute-project-blue.svg)](https://github.com/camunda-community-hub/awesome-camunda-cloud/pulls) [![](https://img.shields.io/badge/Community%20Extension-An%20open%20source%20community%20maintained%20project-FF4700)](https://github.com/camunda-community-hub/community)
   
 <hr />
 <a href="https://camunda.io">Camunda Cloud</a>&nbsp;&nbsp;&nbsp;
@@ -37,14 +37,14 @@ Client libraries to interact with Camunda Cloud and Zeebe
 - [C#](https://github.com/camunda-community-hub/zeebe-client-csharp)
 - [Delphi](https://github.com/camunda-community-hub/DelphiZeeBeClient)
 - [Ruby](https://github.com/zeebe-io/zeebe-client-ruby)
-  - [Beez](https://github.com/gottfrois/beez) - Simple, efficient ruby workers for Zeebe
+  - [Beez](https://github.com/gottfrois/beez) - Simple, efficient ruby workers for Zeebe (Not updated for Zeebe 1.0.0)
 - [Node.js](https://github.com/camunda-community-hub/zeebe-client-node-js)
   - [NestJS](https://github.com/camunda-community-hub/nestjs-zeebe#readme)
 - [Rust](https://github.com/camunda-community-hub/zeebest)
 - Python:
   - [Zeebe Python gRPC](https://pypi.org/project/zeebe-grpc/)
   - [Pyzeebe](https://github.com/camunda-community-hub/pyzeebe)
-- [WorkIt](https://github.com/VilledeMontreal/workit) - Node.js (TypeScript) client for both Zeebe and Camunda BPM platforms
+- [WorkIt](https://github.com/VilledeMontreal/workit) - Node.js (TypeScript) client for both Zeebe and Camunda BPM platforms (Not updated for Zeebe 1.0.0)
 
 **Want a client for another language?**
 
