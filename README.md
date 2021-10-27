@@ -5,7 +5,7 @@
   
 <hr />
 <a href="https://camunda.io">Camunda Cloud</a>&nbsp;&nbsp;&nbsp;
-<a href="CODE_OF_CONDUCT.md">Code of conduct</a>&nbsp;&nbsp;&nbsp;
+<a href="CODE_OF_CONDUCT.md">Code of Conduct</a>&nbsp;&nbsp;&nbsp;
 <a href="CONTRIBUTING.md">Contributing</a>
 <hr />
 </div>
