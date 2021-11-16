@@ -1,4 +1,4 @@
-var errorMsg = '<h2 style="text-align: center">Failed to fetch the awesome-zeebe list. Please visit <a href="https://github.com/camunda-community-hub/awesome-zeebe">https://github.com/camunda-community-hub/awesome-zeebe</a></h2>';
+var errorMsg = '<h2 style="text-align: center">Failed to fetch the awesome-camunda-cloud list. Please visit <a href="https://github.com/camunda-community-hub/awesome-camunda-cloud">https://github.com/camunda-community-hub/awesome-camunda-cloud</a></h2>';
 
 var getFileData = function(url) {
   $.ajax({
