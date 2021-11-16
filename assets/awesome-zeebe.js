@@ -15,5 +15,5 @@ var getFileData = function(url) {
 };
 
 $(document).ready(function(){
-  getFileData("https://raw.githubusercontent.com/camunda-community-hub/awesome-zeebe/master/README.md");
+  getFileData("https://raw.githubusercontent.com/camunda-community-hub/awesome-camunda-cloud/master/README.md");
 });
