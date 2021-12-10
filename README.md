@@ -33,6 +33,7 @@ Client libraries to interact with Camunda Cloud and Zeebe
 
 - [Java](https://github.com/camunda-cloud/zeebe/tree/master/clients/java)
   - [Spring](https://github.com/camunda-community-hub/spring-zeebe)
+  - [Micronaut](https://github.com/camunda-community-hub/micronaut-zeebe-client)
 - [Go](https://github.com/camunda-cloud/zeebe/tree/master/clients/go)
 - [C#](https://github.com/camunda-community-hub/zeebe-client-csharp)
 - [Delphi](https://github.com/camunda-community-hub/DelphiZeeBeClient)
