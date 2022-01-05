@@ -122,6 +122,9 @@ Other Camunda Cloud & Zeebe related applications
 - [Helm Charts](https://helm.camunda.io/) - [Helm](https://helm.sh/) charts to deploy Zeebe to Kubernetes.
 - [Portainer Templates](https://camunda-community-hub.github.io/zeebe-portainer-templates/) - [Portainer](https://www.portainer.io/) templates to deploy Zeebe to Docker.
 - [zdb](https://github.com/Zelldon/zdb) - Zeebe debug and inspection tool, allows to inspect the log and internal state of Zeebe.
+- [zeebe-worker-java-template](https://github.com/camunda-community-hub/zeebe-worker-java-template) - Minimal template for a [Zeebe](https://github.com/camunda-cloud/zeebe)
+Java [worker](https://docs.camunda.io/docs/components/concepts/job-workers/). This template adds only the bare minimum
+of dependencies.
 
 ## Meetups
 
