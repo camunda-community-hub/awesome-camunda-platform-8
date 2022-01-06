@@ -66,7 +66,7 @@ Connector: A piece of software that connects Camunda Cloud or Zeebe with some ot
 
 Job Worker: A special type of client that polls for and executes available jobs. In contrast to connectors and bridges, such workers do not connect to other active pieces of software primarily (for example, a 'DMN Connector' might connect Zeebe to a managed DMN Engine, a 'DMN worker' will use a DMN library to execute decisions).
 
-- [Script](https://github.com/camunda-community-hub/zeebe-script-worker) - Zeebe job worker for evaluating JS, Groovy, and FEEL scripts
+- [Script](https://github.com/camunda-community-hub/zeebe-script-worker) - Zeebe job worker for evaluating JS, Groovy, Kotlin and FEEL scripts
 - [DMN Scala](https://github.com/camunda-community-hub/dmn-scala/tree/master/zeebe-worker) - Zeebe job worker using the [Scala DMN engine](https://github.com/camunda/dmn-scala)
 - [Camunda DMN](https://github.com/camunda-community-hub/zeebe-dmn-worker) - Zeebe job worker using the [Camunda DMN engine](https://github.com/camunda/camunda-engine-dmn)
 - [Zeebe Slack Worker](https://github.com/camunda-community-hub/zeebe-slack-worker) - A Node.js library for building job workers that send messages to Slack based on service tasks.
