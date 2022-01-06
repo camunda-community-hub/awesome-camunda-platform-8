@@ -97,6 +97,7 @@ Applications to interact with Camunda Cloud and Zeebe
 - [Modeler](https://github.com/zeebe-io/zeebe-modeler) - Use Zeebe Modeler to model your workflow in a desktop application
 - [zbctl](https://github.com/zeebe-io/zeebe/tree/master/clients/zbctl) - CLI to interact with Zeebe
 - [zbctl via npm](https://www.npmjs.com/package/zbctl) - zbctl is just an `npm install` away
+- [zbctl via Homebrew](https://formulae.brew.sh/formula/zbctl) - zbctl from the famous Mac OS package manager
 - [dockerised zbctl](https://hub.docker.com/r/sitapati/zbctl) - See [these notes on using it in CI](https://forum.zeebe.io/t/use-docker-compose-cant-find-bpmn-file/1004/3?u=jwulf)
 - [Workflow Linter](https://github.com/StephenOTT/Workflow-Linter) - Workflow Linter for BPMN workflows
 - [Zeebe Cloud Canary](https://github.com/jwulf/zeebe-cloud-canary) - Monitor the aliveness of a Zeebe broker
