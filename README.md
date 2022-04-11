@@ -1,18 +1,18 @@
 <div align="center">
-<h1>Awesome Camunda Cloud</h1>
+<h1>Awesome Camunda Platform 8</h1>
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Contribute](https://img.shields.io/badge/contribute-project-blue.svg)](https://github.com/camunda-community-hub/awesome-camunda-cloud/pulls) [![](https://img.shields.io/badge/Community%20Extension-An%20open%20source%20community%20maintained%20project-FF4700)](https://github.com/camunda-community-hub/community)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Contribute](https://img.shields.io/badge/contribute-project-blue.svg)](https://github.com/camunda-community-hub/awesome-camunda-cloud/pulls) [![](https://img.shields.io/badge/Community%20Extension-An%20open%20source%20community%20maintained%20project-FF4700)](https://github.com/camunda-community-hub/community) ![](https://img.shields.io/badge/Compatible%20with-Camunda%20Platform%208-0072Ce)
   
 <hr />
-<a href="https://camunda.io">Camunda Cloud</a>&nbsp;&nbsp;&nbsp;
+<a href="https://camunda.io">Camunda Platform 8</a>&nbsp;&nbsp;&nbsp;
 <a href="CODE_OF_CONDUCT.md">Code of Conduct</a>&nbsp;&nbsp;&nbsp;
 <a href="CONTRIBUTING.md">Contributing</a>
 <hr />
 </div>
 
-A curated list of awesome [Camunda Cloud](https://camunda.io) projects, mostly driven by the community. Inspired by [awesome-go](https://github.com/avelino/awesome-go).
+A curated list of awesome [Camunda Platform 8](https://camunda.io) projects, mostly driven by the community. Inspired by [awesome-go](https://github.com/avelino/awesome-go).
 
-Previously this list contained only Zeebe awesome-ness. Help us collect all things awesome about Camunda Cloud and Zeebe, the workflow engine powering Camunda Cloud.
+Previously this list contained only Zeebe awesome-ness. Help us collect all things awesome about Camunda Platform 8 and Zeebe, the workflow engine powering Camunda Platform 8.
 
 ## Contents
 
@@ -29,7 +29,7 @@ Previously this list contained only Zeebe awesome-ness. Help us collect all thin
 
 ## Clients and Programming Framework Integrations
 
-Client libraries to interact with Camunda Cloud and Zeebe
+Client libraries to interact with Camunda Platform 8 and Zeebe
 
 - [Java](https://github.com/camunda-cloud/zeebe/tree/master/clients/java)
   - [Spring](https://github.com/camunda-community-hub/spring-zeebe)
@@ -54,13 +54,13 @@ Thanks to gRPC you can generate client stubs easily as described in [Generating 
 
 ## Connectors and Bridges
 
-Connector: A piece of software that connects Camunda Cloud or Zeebe with some other system or infrastructure. Might be uni or bidirectional and possibly includes a job worker.
+Connector: A piece of software that connects Camunda Platform 8 or Zeebe with some other system or infrastructure. Might be uni or bidirectional and possibly includes a job worker.
 
 - [Kafka Connector](https://github.com/camunda-community-hub/kafka-connect-zeebe)
 - [HTTP](https://github.com/camunda-community-hub/zeebe-http-worker) - Zeebe job worker for making HTTP calls
 - [Lambda](https://github.com/camunda-community-hub/zeebe-lambda-worker) - A Zeebe worker to invoke AWS Lambdas (Serverless functions), allowing to orchestrate functions
 - [Node-RED Zeebe nodes](https://github.com/camunda-community-hub/node-red-contrib-zeebe)
-- [Zeebe GitHub Action](https://github.com/marketplace/actions/zeebe-action) - Integrate Zeebe into GitHub Workflows with Camunda Cloud
+- [Zeebe GitHub Action](https://github.com/marketplace/actions/zeebe-action) - Integrate Zeebe into GitHub Workflows with Camunda Platform 8
 
 ## Job Workers
 
@@ -73,7 +73,7 @@ Job Worker: A special type of client that polls for and executes available jobs.
 
 ## Exporters
 
-Exporters to load data into external systems, only available with Camunda Cloud Self-Managed.
+Exporters to load data into external systems, only available with Camunda Platform 8 Self-Managed.
 
 - [Elasticsearch](https://github.com/zeebe-io/zeebe/tree/master/exporters/elasticsearch-exporter)
 - [Event Store](https://github.com/jwulf/zeebe-eventstore-exporter)
@@ -90,7 +90,7 @@ You can build one in as little as 15 minutes. Take a look at the [Zeebe Exporter
 
 ## Applications
 
-Applications to interact with Camunda Cloud and Zeebe
+Applications to interact with Camunda Platform 8 and Zeebe
 
 - [Simple Monitor](https://github.com/camunda-community-hub/zeebe-simple-monitor) - A lightweight application for monitoring and interacting with Zeebe during development
 - [ZeeQS](https://github.com/camunda-community-hub/zeeqs) - GraphQL query API for aggregated Zeebe data
@@ -108,7 +108,7 @@ Applications to interact with Camunda Cloud and Zeebe
 
 ## Testing
 
-Test utilities to help you develop Camunda Cloud or Zeebe-dependent applications
+Test utilities to help you develop Camunda Platform 8 or Zeebe-dependent applications
 
 - [Zeebe Test Container](https://github.com/camunda-community-hub/zeebe-test-container) - [TestContainers](https://testcontainers.org) module to help you write integration tests against configurable Zeebe instances.
 - [Zeebe Chaos](https://github.com/zeebe-io/zeebe-chaos) - contains everything related to chaos engineering and Zeebe, like chaos experiments, an hypotheses backlog etc.
@@ -119,7 +119,7 @@ Test utilities to help you develop Camunda Cloud or Zeebe-dependent applications
 
 ## Others
 
-Other Camunda Cloud & Zeebe related applications
+Other Camunda Platform 8 & Zeebe related applications
 
 - [Helm Charts](https://helm.camunda.io/) - [Helm](https://helm.sh/) charts to deploy Zeebe to Kubernetes.
 - [Portainer Templates](https://camunda-community-hub.github.io/zeebe-portainer-templates/) - [Portainer](https://www.portainer.io/) templates to deploy Zeebe to Docker.
