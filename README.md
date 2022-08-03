@@ -86,7 +86,7 @@ Exporters to load data into external systems, only available with Camunda Platfo
 
 **Want an exporter for another system?**
 
-You can build one in as little as 15 minutes. Take a look at the [Zeebe Exporter Demo](https://github.com/jwulf/zeebe-exporter-demo), and the tutorial blog posts [Part One](https://zeebe.io/blog/2019/05/exporter-part-1/) and [Part Two](https://zeebe.io/blog/2019/05/exporter-part-2/).
+You can build one in as little as 15 minutes. Take a look at the [Zeebe Exporter Demo](https://github.com/jwulf/zeebe-exporter-demo), and the tutorial blog posts [Part One](https://camunda.com/blog/2019/05/exporter-part-1/) and [Part Two](https://camunda.com/blog/2019/06/exporter-part-2/).
 
 ## Applications
 
