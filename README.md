@@ -60,7 +60,7 @@ Connector: A piece of software that connects Camunda Platform 8 or Zeebe with so
 - [HTTP](https://github.com/camunda-community-hub/zeebe-http-worker) - Zeebe job worker for making HTTP calls
 - [Lambda](https://github.com/camunda-community-hub/zeebe-lambda-worker) - A Zeebe worker to invoke AWS Lambdas (Serverless functions), allowing to orchestrate functions
 - [Node-RED Zeebe nodes](https://github.com/camunda-community-hub/node-red-contrib-zeebe)
-- [Zeebe GitHub Action](https://github.com/marketplace/actions/zeebe-action) - Integrate Zeebe into GitHub Workflows with Camunda Platform 8
+- [Zeebe GitHub Action](https://github.com/marketplace/actions/camunda-8-action) - Integrate Zeebe into GitHub Workflows with Camunda Platform 8
 
 ## Job Workers
 
