@@ -1,29 +1,31 @@
 <div align="center">
 <h1>Awesome Camunda Platform 8</h1>
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Contribute](https://img.shields.io/badge/contribute-project-blue.svg)](https://github.com/camunda-community-hub/awesome-camunda-cloud/pulls) [![](https://img.shields.io/badge/Community%20Extension-An%20open%20source%20community%20maintained%20project-FF4700)](https://github.com/camunda-community-hub/community) ![](https://img.shields.io/badge/Compatible%20with-Camunda%20Platform%208-0072Ce)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Contribute](https://img.shields.io/badge/contribute-project-blue.svg)](https://github.com/camunda-community-hub/awesome-camunda-platform-8/pulls) [![](https://img.shields.io/badge/Community%20Extension-An%20open%20source%20community%20maintained%20project-FF4700)](https://github.com/camunda-community-hub/community) ![](https://img.shields.io/badge/Compatible%20with-Camunda%20Platform%208-0072Ce)
   
 <hr />
-<a href="https://camunda.io">Camunda Platform 8</a>&nbsp;&nbsp;&nbsp;
+<a href="https://camunda.com/platform/">Camunda Platform 8</a>&nbsp;&nbsp;&nbsp;
 <a href="CODE_OF_CONDUCT.md">Code of Conduct</a>&nbsp;&nbsp;&nbsp;
 <a href="CONTRIBUTING.md">Contributing</a>
 <hr />
 </div>
 
-A curated list of awesome [Camunda Platform 8](https://camunda.io) projects, mostly driven by the community. Inspired by [awesome-go](https://github.com/avelino/awesome-go).
+A curated list of awesome [Camunda Platform 8](https://camunda.com/platform/) projects, mostly driven by the community. Inspired by [awesome-go](https://github.com/avelino/awesome-go).
 
-Previously this list contained only Zeebe awesome-ness. Help us collect all things awesome about Camunda Platform 8 and Zeebe, the workflow engine powering Camunda Platform 8.
+Previously, this list contained only Zeebe awesome-ness. Help us collect all things awesome about Camunda Platform 8 and Zeebe, the workflow engine powering Camunda Platform 8.
 
 ## Contents
 
-* [Clients and Programming Framework Integrations](#clients-and-programming-framework-integrations)
-* [Connectors and Bridges](#connectors-and-bridges)
-* [Job Workers](#job-workers)
-* [Exporters](#exporters)
-* [Applications](#applications)
-* [Testing](#testing)
-* [Meetups](#meetups)
-* [Others](#others)
+- [Contents](#contents)
+- [Clients and Programming Framework Integrations](#clients-and-programming-framework-integrations)
+- [Connectors and Bridges](#connectors-and-bridges)
+- [Job Workers](#job-workers)
+- [Exporters](#exporters)
+- [Applications](#applications)
+- [Testing](#testing)
+- [Others](#others)
+- [Contributing](#contributing)
+- [License](#license)
 
 # Awesome Projects
 
@@ -54,7 +56,11 @@ Thanks to gRPC you can generate client stubs easily as described in [Generating 
 
 ## Connectors and Bridges
 
-Connector: A piece of software that connects Camunda Platform 8 or Zeebe with some other system or infrastructure. Might be uni or bidirectional and possibly includes a job worker.
+Connector: A reusable building block that performs the integration with an external system and works out of the box.
+
+* [Awesome Camunda Platform 8 Connectors](https://github.com/camunda-community-hub/camunda-8-connectors) -- all connectors, whether created by Camunda, the community, or partners, are listed here.
+  
+Bridge: A piece of software that connects Camunda Platform 8 or Zeebe with some other system or infrastructure. Might be uni or bidirectional and possibly includes a job worker.
 
 - [Kafka Connector](https://github.com/camunda-community-hub/kafka-connect-zeebe)
 - [HTTP](https://github.com/camunda-community-hub/zeebe-http-worker) - Zeebe job worker for making HTTP calls
@@ -129,9 +135,8 @@ Java [worker](https://docs.camunda.io/docs/components/concepts/job-workers/). Th
 of dependencies.
 - [FEEL REPL](https://camunda.github.io/feel-scala/docs/reference/#feel-repl) - easily try FEEL expressions using the REPL (Read-Eval-Print-Loop) of the [FEEL Scala engine](https://github.com/camunda/feel-scala).
 
-## Meetups
-
-- [2020-01-15 - Zeebe: A workflow engine for microservice orchestration in the cloud](https://github.com/urbanisierung/meetups/blob/master/2020-01-15-Camunda-Zeebe/README.md)
+## Contributing
+Please help us keep this list up to date! PRs welcome, follow our [contribution guidelines](CONTRIBUTING.md).
 
 ## License
 
