@@ -33,7 +33,7 @@ Previously, this list contained only Zeebe awesome-ness. Help us collect all thi
 
 Client libraries to interact with Camunda Platform 8 and Zeebe
 
-- [Java](https://github.com/camunda-cloud/zeebe/tree/master/clients/java)
+- [Java](https://github.com/camunda/zeebe/tree/main/clients/java)
   - [Spring](https://github.com/camunda-community-hub/spring-zeebe)
   - [Micronaut](https://github.com/camunda-community-hub/micronaut-zeebe-client)
 - [Go](https://github.com/camunda-cloud/zeebe/tree/master/clients/go)
@@ -63,7 +63,6 @@ Connector: A reusable building block that performs the integration with an exter
 Bridge: A piece of software that connects Camunda Platform 8 or Zeebe with some other system or infrastructure. Might be uni or bidirectional and possibly includes a job worker.
 
 - [Kafka Connector](https://github.com/camunda-community-hub/kafka-connect-zeebe)
-- [HTTP](https://github.com/camunda-community-hub/zeebe-http-worker) - Zeebe job worker for making HTTP calls
 - [Lambda](https://github.com/camunda-community-hub/zeebe-lambda-worker) - A Zeebe worker to invoke AWS Lambdas (Serverless functions), allowing to orchestrate functions
 - [Node-RED Zeebe nodes](https://github.com/camunda-community-hub/node-red-contrib-zeebe)
 - [Zeebe GitHub Action](https://github.com/marketplace/actions/camunda-8-action) - Integrate Zeebe into GitHub Workflows with Camunda Platform 8
@@ -73,15 +72,15 @@ Bridge: A piece of software that connects Camunda Platform 8 or Zeebe with some 
 Job Worker: A special type of client that polls for and executes available jobs. In contrast to connectors and bridges, such workers do not connect to other active pieces of software primarily (for example, a 'DMN Connector' might connect Zeebe to a managed DMN Engine, a 'DMN worker' will use a DMN library to execute decisions).
 
 - [Script](https://github.com/camunda-community-hub/zeebe-script-worker) - Zeebe job worker for evaluating JS, Groovy, Kotlin and FEEL scripts
-- [DMN Scala](https://github.com/camunda-community-hub/dmn-scala/tree/master/zeebe-worker) - Zeebe job worker using the [Scala DMN engine](https://github.com/camunda/dmn-scala)
-- [Camunda DMN](https://github.com/camunda-community-hub/zeebe-dmn-worker) - Zeebe job worker using the [Camunda DMN engine](https://github.com/camunda/camunda-engine-dmn)
+- [DMN Scala](https://github.com/camunda/dmn-scala/) - Zeebe job worker using the Scala DMN engine
+- [Camunda DMN](https://github.com/camunda-community-hub/zeebe-dmn-worker) - Zeebe job worker using the Camunda DMN engine
 - [Zeebe Slack Worker](https://github.com/camunda-community-hub/zeebe-slack-worker) - A Node.js library for building job workers that send messages to Slack based on service tasks.
 
 ## Exporters
 
 Exporters to load data into external systems, only available with Camunda Platform 8 Self-Managed.
 
-- [Elasticsearch](https://github.com/zeebe-io/zeebe/tree/master/exporters/elasticsearch-exporter)
+- [Elasticsearch](https://github.com/camunda/zeebe/tree/main/exporters/elasticsearch-exporter)
 - [Event Store](https://github.com/jwulf/zeebe-eventstore-exporter)
 - [Hazelcast](https://github.com/camunda-community-hub/zeebe-hazelcast-exporter)
 - [Incident Alerter (Webhook)](https://github.com/jwulf/zeebe-incident-alerter)
@@ -100,8 +99,7 @@ Applications to interact with Camunda Platform 8 and Zeebe
 
 - [Simple Monitor](https://github.com/camunda-community-hub/zeebe-simple-monitor) - A lightweight application for monitoring and interacting with Zeebe during development
 - [ZeeQS](https://github.com/camunda-community-hub/zeeqs) - GraphQL query API for aggregated Zeebe data
-- [Modeler](https://github.com/zeebe-io/zeebe-modeler) - Use Zeebe Modeler to model your workflow in a desktop application
-- [zbctl](https://github.com/zeebe-io/zeebe/tree/master/clients/zbctl) - CLI to interact with Zeebe
+- [zbctl](https://docs.camunda.io/docs/apis-clients/cli-client/) - CLI to interact with Zeebe
 - [zbctl via npm](https://www.npmjs.com/package/zbctl) - zbctl is just an `npm install` away
 - [zbctl via Homebrew](https://formulae.brew.sh/formula/zbctl) - zbctl from the famous Mac OS package manager
 - [zbctl via Snap](https://snapcraft.io/zbctl) - Install zbctl through your Linux package manager, e.g. `snap install zbctl`
@@ -131,8 +129,7 @@ Other Camunda Platform 8 & Zeebe related applications
 - [Portainer Templates](https://camunda-community-hub.github.io/zeebe-portainer-templates/) - [Portainer](https://www.portainer.io/) templates to deploy Zeebe to Docker.
 - [zdb](https://github.com/Zelldon/zdb) - Zeebe debug and inspection tool, allows to inspect the log and internal state of Zeebe.
 - [zeebe-worker-java-template](https://github.com/camunda-community-hub/zeebe-worker-java-template) - Minimal template for a [Zeebe](https://github.com/camunda-cloud/zeebe)
-Java [worker](https://docs.camunda.io/docs/components/concepts/job-workers/). This template adds only the bare minimum
-of dependencies.
+Java [worker](https://docs.camunda.io/docs/components/concepts/job-workers/). This template adds only the bare minimum of dependencies.
 - [FEEL REPL](https://camunda.github.io/feel-scala/docs/reference/#feel-repl) - easily try FEEL expressions using the REPL (Read-Eval-Print-Loop) of the [FEEL Scala engine](https://github.com/camunda/feel-scala).
 
 ## Contributing
@@ -142,5 +139,4 @@ Please help us keep this list up to date! PRs welcome, follow our [contribution 
 
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0)
 
-To the extent possible under law, Zeebe has waived all copyright and
-related or neighboring rights to this work.
+To the extent possible under law, Zeebe has waived all copyright and related or neighboring rights to this work.
