@@ -118,7 +118,10 @@ Test utilities to help you develop Camunda Platform 8 or Zeebe-dependent applica
 - [Zeebe Chaos](https://github.com/zeebe-io/zeebe-chaos) - contains everything related to chaos engineering and Zeebe, like chaos experiments, an hypotheses backlog etc.
 - [Zeebe BPMN RSpec](https://github.com/ezcater/zeebe_bpmn_rspec) - Ruby gem to test workflow logic in Zeebe using RSpec.
 - [BPMN Spec](https://github.com/camunda-community-hub/bpmn-spec) - a tool to write tests for BPMN workflows on run them on Zeebe
-- [Zeebe Performance Benchmarking / Tuning Tool](https://zeebe.io/blog/2020/11/zeebe-performance-tool/) - a performance benchmarking and tuning spreadsheet from Camunda Consultant Falko Menge.
+- [Zeebe Performance Benchmarking / Tuning Tool](https://zeebe.io/blog/2020/11/zeebe-performance-tool/) - a performance benchmarking and tuning spreadsheet from Camunda solution architect Falko Menge.
+- [Camunda 8 Benchmark (c8b)](https://github.com/camunda-community-hub/camunda-8-benchmark) - a load generator for Zeebe.
+- [Zeebe Tuner](https://github.com/camunda-consulting/zeebe-tuner/) - an iterative benchmark runner parameterized using a spreadsheet.
+- [Benchmark Helm Profile](https://github.com/camunda-community-hub/camunda-8-helm-profiles/tree/main/google/benchmark) - a Helm chart configuration for benchmarking.
 - [Zeebe Worker Java Testutils](https://github.com/camunda-community-hub/zeebe-worker-java-testutils) - Utilities to test Zeebe workers implemented in Java
 
 ## Others
